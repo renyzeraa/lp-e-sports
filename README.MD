@@ -5,6 +5,7 @@ Faaala dev!, seja bem-vindo a mais um projeto.
 Desenvolvi no evento da NLW (next level week) e-sports 9ª edição com a RocketSeat 🚀, decidi participar para botar alguns dos meus conhecimentos em pratica e também para continuar adquirindo novos.
 
 ## <a href="https://renyzeraa.github.io/lp-e-sports" > Deploy 🛫 </a>
+![Screenshot_4](https://user-images.githubusercontent.com/101990719/189555776-82adc307-5d91-4d09-826e-e8746c4e2ece.png)
 
 O objetivo final é uma landing page com tema e-sports, onde posso guardar meus jogos favoritos, lives favoritas e minhas redes sociais.
 
