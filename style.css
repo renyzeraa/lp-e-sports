@@ -116,6 +116,12 @@ header img {
   flex-wrap: wrap;
 }
 
+ul li:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
 @media (max-width: 640px) {
   body {
     height: 100%;
