@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --linear-gradient: linear-gradient(
+    to right,
+    rgba(149, 114, 252, 1) 10%,
+    rgba(67, 231, 173, 1) 50%,
+    rgba(226, 212, 92, 1) 90%
+  );
+  --bg-content-wrapper: #2a2634;
+
+  --text-color: #a1a1aa;
+  --title-color: #fff;
+  --ff: 'Inter', sans-serif;
+}
+
+body {
+  background-image: url('./assets/bg.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+}
+
+main {
+  max-width: 100rem;
+  margin: 4.8rem auto;
+  padding: 0 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: var(--ff);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  margin-bottom: 3.2rem;
+}
+
+header img {
+  width: 12rem;
+  height: 12rem;
+
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(
+        to right,
+        rgba(149, 114, 252, 1) 10%,
+        rgba(67, 231, 173, 1) 50%,
+        rgba(226, 212, 92, 1) 90%
+      )
+      border-box;
+  border-radius: 50rem;
+  border: 4px solid transparent;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.content-wrapper {
+  background: linear-gradient(#2a2634, #2a2634) padding-box,
+    linear-gradient(
+        to right,
+        rgba(149, 114, 252, 1) 10%,
+        rgba(67, 231, 173, 1) 50%,
+        rgba(226, 212, 92, 1) 90%
+      )
+      border-box;
+  border-radius: 4px;
+  border-top: 4px solid transparent;
+  padding: 2.4rem 3.2rem;
+
+  display: grid;
+  margin-bottom: 2.4rem;
+  width: 58rem;
+}
+
+.content-wrapper h1 {
+  font-size: 2.4rem;
+  line-height: 160%;
+  letter-spacing: -0.47px;
+
+  color: var(--title-color);
+}
+
+.content-wrapper p {
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: -0.18px;
+
+  color: var(--text-color);
+}
+
+.content-wrapper ul {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  body {
+    height: 100%;
+  }
+
+  .content-wrapper {
+    width: 279px;
+  }
+}
