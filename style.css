@@ -21,6 +21,7 @@
 }
 
 body {
+  background-color: black;
   background-image: url('./assets/bg.png');
   background-repeat: no-repeat;
   background-position: center top;
@@ -84,7 +85,7 @@ header img {
         rgba(226, 212, 92, 1) 90%
       )
       border-box;
-  border-radius: 4px;
+  border-radius: 10px;
   border-top: 4px solid transparent;
   padding: 2.4rem 3.2rem;
 
